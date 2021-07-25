@@ -1,0 +1,39 @@
+.top_menu{
+    height: 100px;
+    background-color:maroon;
+}
+.title{
+    width: 300px;
+    font: normal 32px/100px 微软雅黑;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    float: left;
+}
+.menu-list{
+    width: 1000px;
+    height: 100px;
+    background-color: maroon;
+    float: left;
+}
+.menu-list li{
+    width: 150px;
+    height: 100px;
+    font: normal 30px/100px 微软雅黑;
+    float: left; /* 左浮动*/
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+.menu-list li:hover{
+    background-color: rgb(204, 27, 80);
+}
+.menu-user{
+    float: left;
+    width: 300;
+    height: 100px;
+    font: normal 20px/100px 微软雅黑;
+    text-align: center;
+    color: white;
+    background-color: maroon;
+}
